@@ -1,4 +1,12 @@
-import { Controller } from '@nestjs/common';
+import { Controller, Get, Query } from '@nestjs/common';
+import { JuegosService } from './juegos.service';
 
 @Controller('juegos')
-export class JuegosController {}
+export class JuegosController {
+  constructor(private readonly service: JuegosService) {}
+
+  @Get()
+  findAll(@Query('genero') genero?: string) {
+    return this.service.findAll(genero);
+  }
+}

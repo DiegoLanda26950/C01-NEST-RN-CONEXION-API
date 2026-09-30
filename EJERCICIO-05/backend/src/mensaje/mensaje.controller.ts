@@ -5,7 +5,7 @@ export class MensajeController {
   @Get()
   obtenerMensaje() {
     return {
-      texto: '¡Conexión conseguida!',
+      texto: '¡Conexión conseguida! 🚀',
     };
   }
 }
