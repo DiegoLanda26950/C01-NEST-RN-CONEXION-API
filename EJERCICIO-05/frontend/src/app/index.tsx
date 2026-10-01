@@ -1,7 +1,7 @@
 import { Button, Text } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-const API_URL = 'http://http://localhost:3000';
+const API_URL = '/http://192.168.1.40:3000';
 
 export default function App() {
   const cargarMensaje = async () => {

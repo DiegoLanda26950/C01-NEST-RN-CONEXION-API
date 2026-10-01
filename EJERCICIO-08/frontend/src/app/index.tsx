@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-const API_URL = 'http://localhost:3000';
+const API_URL = 'http://192.168.1.40:3000';
 
 type Producto = {
   id: number;

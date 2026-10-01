@@ -6,7 +6,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-const API_URL = 'http://TU_IP_LOCAL:3000';
+const API_URL = 'http://192.168.1.40:3000';
 
 export default function App() {
   const [likes, setLikes] = useState(14);
